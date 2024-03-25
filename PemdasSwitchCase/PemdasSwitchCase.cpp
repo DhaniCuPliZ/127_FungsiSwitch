@@ -66,10 +66,17 @@ int main();
 			cout << "Hasil pembagian " << pembagian(a, b) << endl;
 			system("pause");
 			break;
-		
-
+		case 5:
+			input();
+			cout << "Hasil penjumlahan " << penjumlahan(a, b) << endl;
+			system("pause");
+			break;
+		default:
+			cout << "Menu tidak tersedia silahkan pilih lagi !!!" << endl;
+			break;
 
 		}
 
-	}
+	} while (pilihan != 5);
+
 }
